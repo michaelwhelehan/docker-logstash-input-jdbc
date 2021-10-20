@@ -1,5 +1,5 @@
-FROM docker.elastic.co/logstash/logstash:7.3.2
-MAINTAINER <software.dimas_m@icloud.com> Dimas Maryanto
+FROM docker.elastic.co/logstash/logstash:7.15.1
+MAINTAINER <michael@moneyboss.io> Michael Whelehan
 
 # install dependency
 RUN /usr/share/logstash/bin/logstash-plugin install logstash-input-jdbc
